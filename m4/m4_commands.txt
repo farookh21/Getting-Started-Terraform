@@ -8,8 +8,8 @@ terraform output
 
 #Second run
 #Rename the files to use the updated config
-ren modulefour-start.tf modulefour-start.tf.rename
-ren modulefour-update.tf.rename modulefour-update.tf
+mv modulefour-start.tf modulefour-start.tf.rename
+mv modulefour-update.tf.rename modulefour-update.tf
 
 terraform plan -out m4.tfplan
 terraform apply "m4.tfplan"
