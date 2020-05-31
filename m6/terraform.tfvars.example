@@ -1,10 +1,10 @@
-aws_access_key = ""
+aws_access_key = "AKIAJ2FLOGTHXEZKYQ6Q"
 
-aws_secret_key = ""
+aws_secret_key = "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"
 
-key_name = "name_of_existing_key_pair"
+key_name = "Pluralsightkey"
 
-private_key_path = "private_key_path\private_key_file.pem"
+private_key_path = "/Users/farookhshaikh/Downloads/Pluralsightkey.pem"
 
 bucket_name_prefix = "globo"
 
